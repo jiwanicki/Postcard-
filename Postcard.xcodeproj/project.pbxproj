@@ -13,6 +13,8 @@
 		FEF5A2EA19E062B8006A2183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF5A2E919E062B8006A2183 /* Images.xcassets */; };
 		FEF5A2ED19E062B8006A2183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF5A2EB19E062B8006A2183 /* LaunchScreen.xib */; };
 		FEF5A2F919E062B8006A2183 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5A2F819E062B8006A2183 /* PostcardTests.swift */; };
+		FEF5A30719E08D10006A2183 /* Stamp-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEF5A30619E08D10006A2183 /* Stamp-1.jpeg */; };
+		FEF5A30919E08D1D006A2183 /* SanFrancisco.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FEF5A30819E08D1D006A2183 /* SanFrancisco.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FEF5A2F219E062B8006A2183 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF5A2F719E062B8006A2183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF5A2F819E062B8006A2183 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		FEF5A30619E08D10006A2183 /* Stamp-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stamp-1.jpeg"; sourceTree = "<group>"; };
+		FEF5A30819E08D1D006A2183 /* SanFrancisco.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanFrancisco.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		FEF5A2E019E062B8006A2183 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEF5A30619E08D10006A2183 /* Stamp-1.jpeg */,
+				FEF5A30819E08D1D006A2183 /* SanFrancisco.JPG */,
 				FEF5A2E119E062B8006A2183 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,8 @@
 				FEF5A2E819E062B8006A2183 /* Main.storyboard in Resources */,
 				FEF5A2ED19E062B8006A2183 /* LaunchScreen.xib in Resources */,
 				FEF5A2EA19E062B8006A2183 /* Images.xcassets in Resources */,
+				FEF5A30719E08D10006A2183 /* Stamp-1.jpeg in Resources */,
+				FEF5A30919E08D1D006A2183 /* SanFrancisco.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				FEF5A2FE19E062B8006A2183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEF5A2FF19E062B8006A2183 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				FEF5A30119E062B8006A2183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
